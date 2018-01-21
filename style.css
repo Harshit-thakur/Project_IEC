@@ -1,4 +1,7 @@
-﻿
+﻿body {
+  backround-image: url("./images/minecraftALT.png");
+}
+
 .grid {
   display: grid;
   border: 2px yellow solid;
