@@ -1,0 +1,192 @@
+﻿html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*mycode*/
+
+body {
+  background-image: url("http://www.iecuniversity.com/img/image-iec/sl2.jpg");
+  margin-left: 50px;
+  margin-right: 50px;
+  }
+
+.grid {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template: minmax( 50px, 100px ) minmax( 50px, 100px) minmax(50px, 100px) minmax(50px, 100px) / 1fr 1fr 1fr;
+  grid-gap: 20px;
+  }
+
+.box {
+  background-color: pink;
+  color: white;
+  border-radius: 0px;
+  border: 0px black solid;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-family: serif;
+  font-size: 30px;
+  
+  }
+
+.link {
+  line-height: 30px;
+  font-size: 25px;
+  letter-spacing: 0px;
+  }
+
+.image {
+   height: 80px;
+   width: 100%;
+   border: 1px solid blue;
+   border-radius: 10px;
+   padding: 10px 20px;
+   margin: 20px 10px;
+   background-image:url("./1080p.jpg");
+   text-align: center;  
+   font-family: cursive;
+   font-size: 60px; 
+   color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.question {
+  position: fixed;
+  bottom: 20px;
+  height: 50px;
+  width: 100px;
+  padding: 20px;
+  margin: 5px 20px;
+  color: black;
+  background-color: pink;
+  opacity: 0.5;
+  }
+
+.A {
+  height: 100px;
+  width: 400px;
+  color: green;
+  background-color: pink;
+  font-size: 70px; 
+  text-align: center;  
+  position: relative;
+  top: 250px;
+  left: 100px;
+  border-radius: 10px;
+}
+
+.B {
+  height: 100px;
+  width: 400px;
+  color: green;
+  background-color: pink;
+  font-size: 70px; 
+  text-align: center;
+  position: relative;
+  top: 150px;
+  left: 700px;
+  border-radius: 10px;
+}

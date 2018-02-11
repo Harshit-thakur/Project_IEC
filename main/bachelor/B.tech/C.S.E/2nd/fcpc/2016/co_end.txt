@@ -1,0 +1,70 @@
+                                                                               SECTION A
+Q.1 Attempt all questions	                                                                                                  (15 × 2) = 30                                 
+1.	Define computer organization?
+2.	Draw the logic gate of AB+A’C+AD?
+3.	What is magnetic disk?
+4.	What is static RAM memory?
+5.	Name the arithmetic and logical instructions?
+6.	What are the types of interrupts?
+7.	Draw the basic instruction format for memory-reference instruction & register-reference instruction.
+8.	________ register keeps track of the instructions stored in program stored in memory
+ 
+       a) AR(address Register)
+       c) XR(index Register)
+       b) PC(Program Counter)
+       d) AC(Accumulator) 
+
+9.	Half adder consist of……………… and ………………. Gates
+     (a)EX-OR and AND   (b)EX-OR and OR  (c) EX-or and NOT   (d)None of these
+
+10.	……………………are used for converting one type of number system into other form
+     (a)Decoder       (b)Logic gates     (c)Half Adder       (d)Full adder
+
+11.	Logic gates with a set of input and outputs is arrangement of 
+     (a)Combinational circuit           (c) Logic circuit           (d) Design circuits      (d) Register 
+
+12.	MIMD stands for 
+     (A)Multiple instruction multiple data      (B) Multiple instruction memory data 
+     (C)Memory instruction multiple data        (D) Multiple information memory data 
+
+13.	If we have single memory address then number of operands allowed maximum, would be
+ 
+     a)	1
+     b)	2
+     c)	3
+     d)	4
+ 
+14.	The load instruction is mostly used to designate a transfer from memory to a processor register known as____________.
+ 
+    a)	Accumulator
+    b)	Instruction Register
+    c)	Program Counter 
+    d)	Memory address register
+ 
+
+
+15.	A Memory access in RISC Architecture is limited to instructions    
+     a)	CALL and RET                                                                  c)  PUSH and POP
+     b)	STA and LDA                                                                    d) MOV and JMP
+                                                                           SECTION B      
+Q.2 Attempt any five out of given eight.                                                                        ( 5 x 8)=40                                                                            						
+     1.	What do you mean by Registers? Explain different types of Registers in detail?
+     2.	What are sequential circuits? Compare them with combinational Circuits?
+     3.	Explain in Detail CISC Architecture? Also write down the difference between RISC and CISC architecture?
+     4.	Explain Memory Hierarchy. Draw the block diagram and explain each type of memory in the memory hierarchy.
+     5.	Write a program to evaluate the arithmetic statement
+               Y=A-B+C
+                      G+H
+             I.	Using an accumulator type computer with one address instruction.
+             II.Using a stack organized computer with Zero- address instruction.
+     6.	Explain the main memory and secondary memory in detail?
+     7.	Explain in detail the concept of implementation of control unit?
+     8.	Explain in Detail various instruction types with examples? 
+           
+                                                                            SECTION C
+Q-3 Attempt any two out of given four.                                                                              (2x15)=30
+
+     1.	Explain different types of adders and flip-flops.
+     2. What is the goal of Parallelism? Explain Instruction level Parallelism?
+     3.	What are addressing modes? What is instruction set format? Explain various types of addressing modes with example.
+     4.	Explain different types of cache organization
